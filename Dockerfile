@@ -14,6 +14,4 @@ COPY casc.yaml /var/jenkins_home/casc.yaml
 
 COPY seedjob.groovy /usr/local/seedjob.groovy
 
-COPY seedjob.groovy /usr/local/seedjob.groovy
-
 RUN jenkins-plugin-cli --plugin-file /usr/share/jenkins/ref/plugins.txt
